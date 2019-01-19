@@ -8,38 +8,7 @@
          google.load("feeds", "1")
          </script>
 	</head>
-	<script>
-    
-    function fetchRSSFeed() {
-      var element = document.getElementById("rss_feed");
-      var feed = new google.feeds.Feed(element.dataset.feed);     
-      feed.setNumEntries(element.dataset.count);
-      feed.load(showRSSFeed);
-    }
- 
-    function showRSSFeed(result) {
- 
-      var html = "";
- 
-      if (!result.error) {
-        var entries = result.feed.entries;
-        for (var i = 0; i < entries.length; i++) {
-          html += "<li><a href='" + entries[i].link + "'target='_blank'>" + entries[i].title + "</a></li>"
-        }
-      } else {
-        html = "Error: " + result.error.message;
-      }
- 
-      document.getElementById("rss_feed").innerHTML = "<ul>" + html + "</ul>";
-    }
- 
-    window.onload = function() {
-      fetchRSSFeed();
-    }
-    </script>
     <body>
-        <div id="rss_feed" 
-         data-feed="https://jonescollegeprep.org/apps/events2/events_rss.jsp?id=9" 
-         data-count="12">Loading RSS Feed..</div>
+	 <iframe src="https://calendar.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;mode=WEEK&amp;height=1080&amp;wkst=1&amp;bgcolor=%23c0c0c0&amp;src=a01ov2eplol1prnqhgc5vi7r3r50g9bb%40import.calendar.google.com&amp;color=%230F4B38&amp;ctz=America%2FChicago" style="border-width:0" width="1920" height="1080" frameborder="0" scrolling="no"></iframe>
     </body>
 </html>
