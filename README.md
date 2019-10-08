@@ -9,6 +9,6 @@ An admin control panel is availible to faculty, where information can be changed
 - Everything
 
 # How are you making this?
-Rasperry Pi 3B+ running Ubuntu MATE 18.04 LTS`
-Python 3.7.4 with Django 2.2.6 LTS
-Special thanks to the CTA for allowing us to use their tracker API
+- Rasperry Pi 3B+ running Ubuntu MATE 18.04 LTS`
+- Python 3.7.4 with Django 2.2.6 LTS
+- Special thanks to the CTA for allowing us to use their tracker API
