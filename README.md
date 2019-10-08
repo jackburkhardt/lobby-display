@@ -9,7 +9,7 @@ An admin control panel is availible to faculty, where information can be changed
 - Everything
 
 # How are you making this?
-- Rasperry Pi 3B+ running Ubuntu MATE 18.04 LTS`
+- Rasperry Pi 3B+ running guysoft's FullPageOS (Buster 0.11.0)
 - Python 3.7.4 with Django 2.2.6 LTS
 - CTA's tracker API
 - Duct tape, tears, and copied code
