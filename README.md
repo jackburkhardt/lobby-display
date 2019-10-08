@@ -1,13 +1,14 @@
 # What this does
-The TV in the JCP main lobby has had little use, so the CS/MS club has decided to make it into something useful.
+The JCP lobby has a large TV which has had little to no use over previous years. This project aims to use it to display
+information about upcoming events, the current day, and CTA transit info. It will be able to run autonomously, requiring
+only an internet connection.
 
-This display will show CTA transit information in the afternoons and school announcements and events for the rest of the day using a Raspberry Pi 3B+. It is meant to funtion autonomously and automatically, requiring only an internet connection.
+An admin control panel is availible to faculty, where information can be changed or modified as needed.
 
 # What still needs to be done
-  - Have the information be displayed at appropriate times
-  - Fix RSS feeds not displaying
-  - Add in system to allow for custom slides or announcements to easily be slotted in and out
-  - Build an autoexec script for the slides as the Pi/TV boots up
+- Everything
 
-# Why would you use HTML...
-Because I'm lazy.
+# How are you making this?
+Rasperry Pi 3B+ running Ubuntu MATE 18.04 LTS`
+Python 3.7.4 with Django 2.2.6 LTS
+Special thanks to the CTA for allowing us to use their tracker API
